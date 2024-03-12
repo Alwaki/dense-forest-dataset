@@ -11,4 +11,4 @@ The drone used is the Matrice 300. Ranged sensor modalities include LiDAR (Livox
 
 ### RVIZ visualization
 Inline-style: 
-![example 1](https://github.com/alwaki/dense-forest-dataset/raw/master/pc_1.png "Logo Title Text 1")
+![](pc_1.png)
