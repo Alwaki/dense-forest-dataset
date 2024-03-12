@@ -2,6 +2,11 @@
 This repository contains a dataset collected by UAV over dense boreal forest.
 
 ## Dataset description
+| Plot ID      | Plot size    | Tree density | nbr pine  | nbr spruce | nbr broad-leaf | 
+| ------------ |:------------:|:------------:|:---------:|:----------:|:--------------:|
+| 1            | 850          | 2050         | 121       | 131        | 0              |
+
+
 ![survey-area](images/survey.png)
 
 ## Sensor description
