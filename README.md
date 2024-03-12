@@ -2,15 +2,15 @@
 This repository contains a dataset collected by UAV over dense boreal forest.
 
 ## Dataset description
-![survey-area](survey.png)
+![survey-area](images/survey.png)
 
 ## Sensor description
 The drone used is the Matrice 300. Ranged sensor modalities include LiDAR (Livox Avia), and RGB camera (Basler dart 1600-60uc).
 
 ## Example output
 
-### RVIZ point cloud visualization
-![view with road](pc_1.png)
+### RVIZ angled point cloud visualization
+![view with road](images/pc_side.png)
 
-### Top down point cloud visualization
-![top](1.png)
+### RVIZ top down point cloud visualization
+![top](images/pc_top.png)
