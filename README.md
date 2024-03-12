@@ -1,5 +1,5 @@
 # dense-forest-dataset
-This repository contains a dataset collected by UAV over dense boreal forest. 
+This repository contains descriptions and links to a dataset collected by UAV over dense boreal forest. 
 
 The files are available [HERE](https://huggingface.co/Alwaki/forest_dataset/tree/main).
 
