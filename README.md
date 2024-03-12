@@ -4,7 +4,7 @@ This repository contains a dataset collected by UAV over dense boreal forest.
 ## Dataset
 The dataset is collected over 4 plots, as seen below. The annotation "S" indicates where the drone takes off from. For collection, a Matrice 300 drone is used. Ranged sensor modalities include LiDAR (Livox Avia), and RGB camera (Basler dart 1600-60uc). Each plot is provided as a separate file, with corresponding information regarding annotations and sensor extrinsics provided. The files are stored in a separate repository, in case storage options change over time.
 
-The files are available at [Link]([https://www.google.com](https://huggingface.co/Alwaki/forest_dataset/tree/main)).
+The files are available at [Link](https://huggingface.co/Alwaki/forest_dataset/tree/main).
 
 ![survey-area](images/survey.png)
 
