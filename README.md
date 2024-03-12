@@ -1,21 +1,15 @@
 # dense-forest-dataset
-This repository contains a dataset collected by UAV over dense boreal forest.
+This repository contains a dataset collected by UAV over dense boreal forest. 
 
-## Dataset description
-| Plot ID      | Plot size    | Tree density | nbr pine  | nbr spruce | nbr broad-leaf | 
-| ------------ |:------------:|:------------:|:---------:|:----------:|:--------------:|
-| 1            | 850          | 2050         | 121       | 53         | 0              |
-| 2            | 840          | 2040         | 40        | 131        | 1              |
-| 3            | 590          | 1930         | 71        | 40         | 3              |
-| 4            | 850          | 1940         | 71        | 26         | 0              |
+## Dataset
+The dataset is collected over 4 plots, as seen below. The annotation "S" indicates where the drone takes off from. For collection, a Matrice 300 drone is used. Ranged sensor modalities include LiDAR (Livox Avia), and RGB camera (Basler dart 1600-60uc). Each plot is provided as a separate file, with corresponding information regarding annotations and sensor extrinsics provided.
 
+Plot 1, Plot 2, Plot 3, Plot 4.
 
 ![survey-area](images/survey.png)
 
-## Sensor description
-The drone used is the Matrice 300. Ranged sensor modalities include LiDAR (Livox Avia), and RGB camera (Basler dart 1600-60uc).
-
-## Example output
+## Examples
+The output can be visualized in RVIZ from the rosbags, as shown here
 
 ### RVIZ angled point cloud visualization
 ![view with road](images/pc_side.png)
