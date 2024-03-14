@@ -15,6 +15,4 @@ args="0 0 0 0 0.7071068 0 0.7071068 lidar_sensor livox_intermediate" />
 args="0 0 0 1 0 0 0 livox_intermediate livox_second_intermediate" />
 <node pkg="tf2_ros" type="static_transform_publisher" name="static_tf_second_intermediate2livox" 
 args="0 0 0 0 0 0.0113444 0.9999357 livox_second_intermediate livox_frame" />
-<node pkg="tf2_ros" type="static_transform_publisher" name="static_tf_lidar2gps" 
-args="-0.2 0 -0.1 0.7071068 0 -0.7071068 0 livox_frame gps_sensor" />
 </launch>
