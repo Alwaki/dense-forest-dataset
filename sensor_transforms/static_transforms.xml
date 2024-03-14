@@ -1,0 +1,20 @@
+<!-- Setting up the static transform between lidar and drone 
+     Note, we separate the full transformation between RTK and lidar sensor into four steps.
+     These include:
+      1. rtk2lidar: translation
+      2. lidar2intermediate: first rotation
+      3. intermediate2livox: second rotation
+      4. second_intermediate2livox: extra rotation to compensate boresight misalignment of sensor to IMU frame (drone body)
+-->
+<launch>
+<node pkg="tf2_ros" type="static_transform_publisher" name="static_tf_rtk2lidar" 
+args="0.47577 0.33293 -0.14013 0 0 0 1 RTK lidar_sensor" />
+<node pkg="tf2_ros" type="static_transform_publisher" name="static_tf_lidar2intermediate" 
+args="0 0 0 0 0.7071068 0 0.7071068 lidar_sensor livox_intermediate" />
+<node pkg="tf2_ros" type="static_transform_publisher" name="static_tf_intermediate2livox" 
+args="0 0 0 1 0 0 0 livox_intermediate livox_second_intermediate" />
+<node pkg="tf2_ros" type="static_transform_publisher" name="static_tf_second_intermediate2livox" 
+args="0 0 0 0 0 0.0113444 0.9999357 livox_second_intermediate livox_frame" />
+<node pkg="tf2_ros" type="static_transform_publisher" name="static_tf_lidar2gps" 
+args="-0.2 0 -0.1 0.7071068 0 -0.7071068 0 livox_frame gps_sensor" />
+</launch>
