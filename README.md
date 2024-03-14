@@ -31,3 +31,6 @@ The output can be visualized in for example RVIZ from the rosbags, as shown here
 
 ### RVIZ top down point cloud visualization
 ![top](images/pc_top.png)
+
+### RGB Camera image from stream
+![top](images/camera_snapshot.png)
