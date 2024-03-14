@@ -11,7 +11,7 @@ The annotations are provided for each plot as excel files in the "annotations" f
 * Y: planar Y-coordinate of tree trunk at breast height (in meters)
 * Species: S = Spruce, P = Pine, B = Broadleaf
 * DBH: Diameter at breast height (in cm)
-* Circumference: Circumference of stem at breast height (in cm). Note, This is DBH*pi
+* Circumference: Circumference of stem at breast height (in cm). Note, This is equivalent to DBH*pi
 
 
 Please note that the ID does not continuously follow integer updates. There may be jumps in the ID numbering. Moreover, positions of the drone are provided in latitude and longitude, while the positions of the annotations are in SWEREF 99-12 planar coordinates. We provide a reference transformation method in the folder "transformation", with Gauss-Krieger and using C++. Lastly, the circumference sometimes has an extra row entry. This indicates a split growth in the tree trunk, with two separate stems.
