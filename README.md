@@ -1,7 +1,7 @@
 # dense-forest-dataset
 This repository contains descriptions and links to a dataset collected by UAV over dense boreal forest. 
 
-The files are available for download [HERE](https://huggingface.co/Alwaki/dense_forest_dataset/tree/main).
+The files are available for download [HERE](https://huggingface.co/datasets/Alwaki/dense_forest_dataset/tree/main).
 
 ## Usage
 The annotations are provided for each plot as excel files in the "annotations" folder. We describe here the meaning of the columns in the annotations:
